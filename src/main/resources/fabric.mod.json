@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gear-drops-mod",
+	"version": "${version}",
+	"name": "Gear Drops Mod",
+	"description": "This mod decreases the spawn probability of armored mobs and sets the chance of armor and weapon drops from mobs to 100%. It's always worth to fight them now!",
+	"authors": [
+		"Dmytro Velychko"
+	],
+	"contact": {
+		"homepage": "https://github.com/aquastones",
+		"sources": "https://github.com/aquastones/gear-drops-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/gear-drops-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aquastones.geardropsmod.GearDropsMod"
+		],
+		"fabric-datagen": [
+			"com.aquastones.geardropsmod.GearDropsModDataGenerator"
+		],
+		"client": [
+			"com.aquastones.geardropsmod.GearDropsModClient"
+		]
+	},
+	"mixins": [
+		"gear-drops-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
