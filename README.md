@@ -1,4 +1,4 @@
-a# 🛡️ Gear Drops Mod (1.21.4)
+# 🛡️ Gear Drops Mod (1.21.4)
 
 A **Minecraft Fabric mod** that reduces the chance of mobs spawning with armor and weapons but ensures they always drop their gear when defeated. This makes combat more rewarding when facing well-equipped enemies.
 
